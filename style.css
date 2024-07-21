@@ -1,0 +1,81 @@
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
+
+/* Global Styles */
+body {
+  color: #003049; /* Text color */
+  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px;
+  background-color: #eae2b7; /* Background color */
+  text-align: center; /* Center-align text */
+}
+
+/* Headers */
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", Times, serif;
+}
+
+h2 {
+  font-size: 2em; /* Larger font size for About heading */
+}
+
+h3 {
+  font-size: 1.5em; /* Smaller font size for subheadings */
+}
+
+/* Main Container */
+div {
+  margin: auto;
+  width: 600px; /* Constrain content width */
+}
+
+/* Image Styling */
+.image-circle {
+  border-radius: 50%; /* Make the image circular */
+  display: block;
+  margin: 0 auto 20px; /* Center the image horizontally and add bottom margin */
+  max-width: 200px; /* Limit maximum width */
+  border: 2px solid #003049; /* Add a 2px border with color */
+}
+
+/* Project Articles */
+article {
+  padding: 50px 0;
+}
+
+article div {
+  text-align: center;
+  width: 100%;
+}
+
+img {
+  display: block;
+  margin: 0 auto 20px; /* Center-align images */
+  max-width: 100%;
+  height: auto;
+}
+
+/* Horizontal Rule */
+hr {
+  border: 1px solid black;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+}
+
+/* Links */
+a:link {
+  color: #d62828; /* Link color */
+  text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+  color: #f77f00; /* Link color on hover */
+}
+li {
+  text-align: left;
+}
